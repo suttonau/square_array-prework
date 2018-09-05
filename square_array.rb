@@ -1,8 +1,9 @@
 def square_array(array)
   array.each do |element|
-    new_array = Math.sqrt(element)
+    Math.sqrt(element)
   end 
   
-  return new_array
+ new_array = square_array
+ return new_array
   
 end
